@@ -1,0 +1,14 @@
+<xs:schema 
+	attributeFormDefault="unqualified" elementFormDefault="qualified" 
+	targetNamespace="urn:com.gfi.caen.releasemanager.config"
+	xmlns:tns="urn:com.gfi.caen.releasemanager.config" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:complexType name="configurationType">
+		<xs:sequence>
+			<xs:element name="prop1" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:element name="configuration" type="tns:configurationType"></xs:element>
+</xs:schema>

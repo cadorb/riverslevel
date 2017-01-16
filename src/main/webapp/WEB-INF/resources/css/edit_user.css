@@ -1,0 +1,136 @@
+/* ------------------ Les différentes marges ------------------ */
+.marge{
+	margin-left : 30px;
+}
+
+.marge2{
+	margin-left : 30px;
+}
+
+/* ------------------ Supprime les puces ------------------ */
+li{
+	list-style-type: none
+}
+
+/* ------------------ Style cadre ------------------ */
+.create_user{
+	width : 100%;
+	height : 100%;
+	margin: 3% 0 0 3%;
+	display: inline-block; 
+	float: left;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.form-horizontalCreation label{ /* ------------------ Style Label ------------------ */
+	margin-top : 10px;
+	padding-left : 80px;
+}
+
+.form-horizontalCreation input{ /* ------------------ Style input ------------------ */
+	margin-bottom: 20px;
+	width : 35%;
+}
+
+/* ------------------ Style role ------------------ */
+.role{
+	margin-left: 14%;
+}
+
+.role label{
+	margin-left: 1%;
+}
+
+/* ------------------ Bouton Créer ------------------ */
+
+.form-horizontalCreer {
+	margin-top: 10px;
+	width : 25%;
+	float : right;
+}
+#creer{
+	text-decoration : none;
+}
+
+#modifier {
+	text-decoration : none;
+}
+
+
+#supprimer {
+	text-decoration : none;
+}
+
+/* ------------------ Style cadre liste des assignations ------------------ */
+.ses_assignations{ /* ------------------ Titre du cadre ------------------ */
+	padding-top : 30px;
+	margin-left : 115px;
+}
+
+.ses_assignations_liste{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 250px;
+	margin-top : 25px;
+	margin-left : 150px;
+	margin-bottom : 20px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.ses_assignations_liste:hover{
+	background-color: #F5F5F5;
+}
+
+#supprimer_assignations{
+	text-decoration : none;
+}
+
+/* ------------------ Style checkbox ------------------ */
+.checkbox_assignations{
+	margin-left : 15px;
+}
+
+/* ------------------ Recherche dans liste ------------------ */
+.form-horizontalRechercheListe{
+	width : 60%;
+	margin-left : 20%;
+	margin-top : 2%;
+	margin-bottom : 3%;
+}
+
+/* ------------------ Assigner une infrastructure ------------------ */
+.effectuer_assignation{
+	margin-left : 10%;
+	padding-top : 30%;
+}
+
+.assigner_infra_liste{
+	overflow : auto;
+	width : 80%;
+	height : 200px;
+	margin : 25px 0 20px 150px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.assigner_infra_liste:hover{
+	background-color: #F5F5F5;
+}
+
+.assigner_infra_liste p{
+	margin-left : 15%;
+}
+
+/* ------------------ Style équipe ------------------ */
+.equipe{
+	margin: 2% 0 0 14%;
+}
+
+.equipe label{
+	margin-left: 1%;
+}

@@ -1,0 +1,89 @@
+* {
+	text-shadow: none !important;
+}
+
+/* ------------------ Menu d�roulant du header ------------------ */
+
+#headerMenuDropList {
+	left: -999em;
+	text-align: left;
+	z-index: 1000;
+	position: absolute;
+	list-style: none;
+}
+
+#headerMenuDropListSchema {
+	left: -999em;
+	text-align: left;
+	z-index: 1000;
+	position: absolute;
+	list-style: none;
+}
+
+#headerMenu li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+#headerMenu ul li:last-child{
+	border-radius:0 0 6px 6px;
+}
+
+.navbar-default .navbar-brand {
+	background: none;
+}
+#orange_logo {
+	float: left;
+}
+#app_name{
+	color: #999999;
+	font-size: 1.1em;
+	margin-left: 20px;
+	text-shadow: none;
+}
+#app_name:hover, #app_name:focus {
+	color: #F16E00;
+}
+.nav-shift{
+	margin-left: 6%;
+}
+.orange{
+	color: #F16E00;
+}
+
+.form-control{
+	display : inline-block;
+	width : 70%;
+}
+
+.form-horizontal {
+	display : inline-block;
+	margin-top: 10px;
+	width : 25%;
+	float : right;
+}
+
+#content form {
+	margin-top: 3%;
+	margin-left: 10%;
+}
+
+footer {
+	background-color: #333333;
+	margin-top : 20%;
+	position: fixed;
+	width : 100%;
+}
+
+footer p {
+	color: white;
+	text-align : center;
+	padding-top : 6px;
+}
+
+/* ------------------ Recherche ------------------ */
+.form-horizontalRecherche {
+	margin-top: 10px;
+	width : 20%;
+	float : right;
+}

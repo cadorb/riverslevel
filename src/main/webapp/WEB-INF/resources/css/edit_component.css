@@ -1,0 +1,252 @@
+/* ------------------ Style Input ------------------ */
+.form-horizontalCreation label{ /* ------------------ Style Label ------------------ */
+	margin-top : 10px;
+	padding-left : 80px;
+}
+
+.form-horizontalCreation input{ /* ------------------ Style input ------------------ */
+	margin-bottom: 20px;
+	width : 70%;
+}
+
+/* ------------------ Style cadre principal ------------------ */
+.info{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	width : 100%;
+	height : auto;
+	margin-top : 5%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+/* ------------------ Marges ------------------ */
+.marge{
+	margin-left : 110px;
+}
+
+.marge2{
+	margin-left : 30px;
+	margin-top : 20px;
+}
+
+/* ------------------ Style cadre Associer à un package ------------------ */
+.associer_package_arbo{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 200px;
+	margin-top : 25px;
+	margin-left : 150px;
+	margin-bottom : 30px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_package_arbo:hover{
+	background-color: #F5F5F5;
+}
+
+.associer_package{
+	padding-top : 30px;
+	margin-left : 115px;
+}
+
+/* ------------------ Style cadre Associer composant ------------------ */
+.associer_composant_liste{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 200px;
+	margin-top : 25px;
+	margin-left : 150px;
+	margin-bottom : 2px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_composant_liste:hover{
+	background-color: #F5F5F5;
+}
+
+.associer_composant{
+	margin-left : 115px;
+}
+
+/* ------------------ Style cadre associations ------------------ */
+.ses_associations_liste{ 
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 200px;
+	margin-top : 25px;
+	margin-left : 150px;
+	margin-bottom : 40px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.ses_associations_liste:hover{
+	background-color: #F5F5F5;
+}
+
+.ses_associations{ /* ------------------ Titre du cadre ------------------ */
+	padding-top : 30px;
+	margin-left : 115px;
+}
+
+.checkbox_associations{ /* ------------------ Style checkbox ------------------ */
+	margin-left : 15px;
+}
+
+.form-horizontalSupprimer {/* ------------------ Bouton supprimer les associations ------------------ */
+	padding-top: 10px;
+	padding-left : 20%;
+	margin-bottom : 2%;
+	float : bottom;
+}
+
+#supprimer_association{
+	text-decoration : none;
+}
+
+/* ------------------ Association déjà existant à un package------------------ */
+.package_associe{ /* ------------------ Titre du cadre ------------------ */
+	padding-top : 300px;
+	margin-left : 115px;
+}
+
+.info_asso{
+	padding-top : 20px;
+	margin-left : 150px;
+}
+
+#supprimerPackageButton{ /* ------------------ Bouton supprimer l'association déjà existante à un package ------------------ */
+	padding-top : 1px;
+	margin : 0 0 2% 0;
+}
+
+
+/* ------------------ Bouton confirmer modification ------------------ */
+.form-horizontalCreerDemande {
+	width : 25%;
+	float : right;
+	margin-bottom : 20px;
+}
+
+#creer_demande{
+	text-decoration : none;
+}
+
+/* ------------------ Bouton confirmer modification ------------------ */
+.form-horizontalCreer {
+	margin-top: 10px;
+	width : 25%;
+	float : right;
+}
+
+#modifier{
+	text-decoration : none;
+}
+
+/* ------------------ Recherche dans liste ------------------ */
+.form-horizontalRechercheListe{
+	width : 300px;
+	margin-left : 20%;
+	margin-top : 2%;
+	margin-bottom : 3%;
+}
+
+/* ------------------ Listbox Type ------------------ */
+.form-groupListbox select{
+	width : 50%;
+	margin-left : 1%;
+}
+
+/* ############################### Style fenêtre modale ############################## */
+.form-horizontalCreationModale label{ /* ------------------ Style Label ------------------ */
+	margin-top : 10px;
+	padding-left : 20px;
+}
+
+.form-horizontalCreationModale input{ /* ------------------ Style input ------------------ */
+	margin-bottom: 20px;
+	width : 60%;
+}
+
+.associer_demande{
+	margin-left : 10%;
+	margin-top : 7%;
+}
+
+.associer_demande_arbo{
+	overflow : auto;
+	width : 90%;
+	height : 200px;
+	margin-left : 3%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_demande_arbo p{
+	margin-left : 15%;
+}
+
+.associer_perimetre_modale{
+	margin-left : 10%;
+	margin-top : 7%;
+}
+
+.associer_perimetre_liste_modale{
+	margin-bottom : 10%;
+	overflow : auto;
+	width : 90%;
+	height : 200px;
+	margin-left : 3%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_perimetre_liste_modale p{
+	margin-left : 15%;
+}
+
+#inputObjet{
+	margin-left : 15%;
+}
+
+#inputReference{
+	margin-left : 15%;
+}
+
+#inputNomModale{
+	margin-left : 15%;
+}
+
+/* -------------- Style pour associer document -------------- */
+.associer_document_liste_modale{
+	margin-bottom : 10%;
+	overflow : auto;
+	width : 90%;
+	height : 200px;
+	margin-left : 3%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_document_liste_modale:hover{
+	background-color: #F5F5F5;
+}
+
+.associer_document_modale{
+	margin-left : 10%;
+	margin-top : 7%;
+}
+

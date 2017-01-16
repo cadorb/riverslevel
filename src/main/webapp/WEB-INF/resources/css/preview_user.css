@@ -1,0 +1,40 @@
+/* ------------------ Style cadre principal ------------------ */
+.user{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 500px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+	margin: 2%;
+}
+
+.user:hover{
+	background-color: #F5F5F5;
+}
+
+/* ------------------ Style informations ------------------ */
+#user_info{
+	margin-top: 20px;
+}
+
+/* ------------------ Bouton Modifier ------------------ */
+#modif_user{
+	text-decoration : none;
+}
+
+/* ------------------ Marges ------------------ */
+.marge{
+	margin : 3% 0 0 3%;
+}
+
+.marge2{
+	margin : 1% 0 0 3%;
+}
+
+/* ------------------ Supprime les puces ------------------ */
+li{
+	list-style-type: none
+}

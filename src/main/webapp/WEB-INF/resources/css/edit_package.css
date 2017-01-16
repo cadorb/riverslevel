@@ -1,0 +1,43 @@
+/* ------------------ Style cadre principal ------------------ */
+.info{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	width : 100%;
+	height : auto;
+	margin-top : 5%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+/* ------------------ Input ------------------ */
+.form-horizontalCreation label{ /* ------------------ Style Label ------------------ */
+	margin-top : 10px;
+	padding-left : 80px;
+}
+
+.form-horizontalCreation input{ /* ------------------ Style input ------------------ */
+	margin-bottom: 20px;
+	width : 70%;
+}
+
+/* ------------------ Marges ------------------ */
+.marge{
+	margin-left : 10px;
+}
+
+.marge2{
+	margin-left : 30px;
+	margin-top : 20px;
+}
+
+/* ------------------ Bouton Confirmer modification ------------------ */
+.form-horizontalCreer {
+	margin-top: 10px;
+	width : 25%;
+	float : right;
+}
+
+#modifier{
+	text-decoration : none;
+}

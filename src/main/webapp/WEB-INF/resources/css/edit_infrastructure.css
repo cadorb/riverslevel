@@ -1,0 +1,139 @@
+/* -------------- bouton Créer -------------- */
+.form-horizontalCreer {
+	margin-top: 10px;
+	width : 25%;
+	float : right;
+}
+
+#creer{
+	text-decoration : none;
+}
+
+#creerInfra{
+	margin-left : 70%;
+}
+
+/* -------------- Section contenant la modification de l'arbre -------------- */
+.creer_arbo{
+	display: inline-block; 
+	float: left;
+	width : 100%;
+	margin-top : 5%;
+}
+
+/* -------------- Les boutons Ajouter -------------- */
+.form-horizontalAjouterInfra{
+	margin-top: 10px;
+	width : 100%;
+}
+
+#ajouterServeurBouton{
+	margin : 20px 0 20px 152px;
+	width : 200px;
+	display: block;
+}
+
+#ajouterPackageBouton{
+	margin : 20px 0 20px 137px;
+	width : 200px;
+	display: block;
+}
+
+#ajouterURLGIT{
+	margin : 10px 0 20px 217px;
+	width : 200px;
+	display: block;
+}
+
+#ajouterComposantBouton{
+	margin : 20px 0 20px 122px;
+	width : 200px;
+	display: block;
+}
+
+/* -------------- Style Input -------------- */
+.form-control {
+	margin-top : 10px;
+	width : 250px;
+}
+
+#inputNomServeur{
+	width : 250px;
+	display : block;
+	margin : auto;
+	margin-left : 20px;
+}
+
+#inputNomPackage{
+	width : 250px;
+	display : block;
+	margin : auto;
+	margin-left : 100px;
+	margin-bottom : 20px;
+}
+
+#inputNomComposant{
+	width : 250px;
+	display : block;
+	margin : auto;
+	margin-left : 100px;
+	margin-bottom : 20px;
+}
+
+/* -------------- Style Label -------------- */
+label{
+	padding-top : 15px;
+}
+
+.form-horizontalBasicat{
+	padding-left : 17.5%;
+}
+
+.control-labelBasicat{
+	padding: 20px 0 0 0;
+}
+
+
+/* --------------  -------------- */
+.serveur{
+	font-weight : bold;
+	margin : 20px 0 0 405px;
+	cursor : pointer;
+}
+
+.package{
+	font-weight : bold;
+	margin : 20px 0 0 470px;
+	cursor : pointer;
+}
+
+.composant{
+	font-weight : bold;
+	margin : 20px 0 0 515px;
+}
+
+/*#plusServeur{
+	width:15px;
+	height:15px;
+	position:relative;
+	float:right;
+	cursor:pointer;
+	margin-right:55%;
+	margin-top : 2px;
+}
+
+#plusPackage{
+	width:15px;
+	height:15px;
+	position:relative;
+	float:right;
+	cursor:pointer;
+	margin-right:49%;
+	margin-top : 2px;
+}*/
+
+/* ############################### Style fenêtre modale ############################## */
+
+.modal-footer{
+	margin-top : 15%;
+}

@@ -1,0 +1,191 @@
+/* ------------------ Style cadre principal ------------------ */
+.info{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	width : 100%;
+	height : auto;
+	margin-top : 5%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+/* ------------------ Input ------------------ */
+.form-horizontalCreation label{ /* ------------------ Style Label ------------------ */
+	margin-top : 10px;
+	padding-left : 80px;
+}
+
+.form-horizontalCreation input{ /* ------------------ Style input ------------------ */
+	margin-bottom: 20px;
+	width : 70%;
+}
+
+/* ------------------ Les marges ------------------ */
+.marge{
+	margin-left : 110px;
+}
+
+.marge2{
+	margin-left : 30px;
+	margin-top : 20px;
+}
+
+/* ------------------ Style cadre Associer une infrastructure ------------------ */
+.associer_infra_liste{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 200px;
+	margin-top : 25px;
+	margin-left : 150px;
+	margin-bottom : 30px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_infra_liste:hover{
+	background-color: #F5F5F5;
+}
+
+.associer_infra{
+	padding-top : 30px;
+	margin-left : 115px;
+}
+
+/* ------------------ Style cadre Associer un périmètre ------------------ */
+.associer_perimetre_liste{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 200px;
+	margin-top : 25px;
+	margin-left : 150px;
+	margin-bottom : 2px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_perimetre_liste:hover{
+	background-color: #F5F5F5;
+}
+
+.associer_perimetre{
+	margin-top : 300px;
+	margin-left : 115px;
+}
+
+/* ------------------ Bouton Créer demande ------------------ */
+.form-horizontalCreerDemande {
+	width : 25%;
+	float : right;
+	margin-bottom : 20px;
+}
+
+.form-groupCreerDemande{
+	width : 50%;
+	padding-top : 10px;
+}
+
+/* ------------------ Bouton Créer ------------------ */
+.form-horizontalCreer {
+	margin-top: 10px;
+	width : 25%;
+	float : right;
+}
+
+#creer{
+	text-decoration : none;
+}
+
+/* ------------------ Recherche dans liste ------------------ */
+.form-horizontalRechercheListe{
+	width : 300px;
+	margin-left : 20%;
+	margin-top : 2%;
+	margin-bottom : 3%;
+}
+
+/* ############################### Style fenêtre modale ############################## */
+.form-horizontalCreationModale label{ /* ------------------ Style Label ------------------ */
+	margin-top : 10px;
+	padding-left : 20px;
+}
+
+.form-horizontalCreationModale input{ /* ------------------ Style input ------------------ */
+	margin-bottom: 20px;
+	width : 60%;
+}
+
+.associer_demande{
+	margin-left : 10%;
+	margin-top : 7%;
+}
+
+.associer_demande_arbo{
+	overflow : auto;
+	width : 90%;
+	height : 200px;
+	margin-left : 3%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_demande_arbo p{
+	margin-left : 15%;
+}
+
+.associer_perimetre_modale{
+	margin-left : 10%;
+	margin-top : 7%;
+}
+
+.associer_perimetre_liste_modale{
+	margin-bottom : 10%;
+	overflow : auto;
+	width : 90%;
+	height : 200px;
+	margin-left : 3%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_perimetre_liste_modale p{
+	margin-left : 15%;
+}
+
+#inputObjet{
+	margin-left : 17%;
+}
+
+#inputReferenceModale{
+	margin-left : 17%;
+}
+
+#inputNomModale{
+	margin-left : 17%;
+}
+
+/* -------------- Style pour associer document -------------- */
+.associer_document_liste_modale{
+	margin-bottom : 10%;
+	overflow : auto;
+	width : 90%;
+	height : 200px;
+	margin-left : 3%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_document_liste_modale:hover{
+	background-color: #F5F5F5;
+}
+
+.associer_document_modale{
+	margin-left : 10%;
+	margin-top : 7%;
+}

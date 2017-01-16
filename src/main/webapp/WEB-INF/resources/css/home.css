@@ -1,0 +1,77 @@
+/* ------------------ Style Cadres ------------------ */
+.info{
+	display: inline-block; 
+	float: left;
+	overflow : auto;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.info:hover{
+	background-color: #F5F5F5;
+}
+
+.info p{
+	margin-left : 5px;
+}
+
+/* ------------------ Les différentes marges ------------------ */
+.marge{
+	margin-left : 30px;
+}
+
+.marge2{
+	margin-left : 30px;
+}
+
+/* ------------------ Supprime les puces ------------------ */
+li{
+	list-style-type: none
+}
+
+/* ------------------ Cadre gauche ------------------ */
+#perimetre_demande{
+	width : 40%;
+	height : 500px;
+	margin-left: 5%;
+	margin-top: 5%;
+	position : relative;
+}
+
+/* ------------------ Cadre bas gauche ------------------ */
+#nom_perimetre{
+	width : 30%;
+	height : 220px;
+	margin-top : 5%;
+	margin-left : 7%;
+	position : relative;
+}
+
+/* ------------------ Cadre bas droite ------------------ */
+#nom_demande{
+	width : 30%;
+	height : 220px;
+	margin-left: 7%;
+	margin-top: 60px;
+	position : relative;
+}
+
+/* ------------------ Recherche dans liste ------------------ */
+.form-horizontalRechercheListe{
+	width : 300px;
+	margin-left : 20%;
+	margin-top : 2%;
+	margin-bottom : 3%;
+}
+
+/* ------------------ Cadre contenant les 3 autres cadres ------------------ */
+.cadre_globale{
+	display: inline-block; 
+	overflow : auto;
+	/*border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;*/
+	width : 90%;
+	height : 100%;
+	margin-left : 5%;
+	margin-top : 2%;
+}

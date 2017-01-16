@@ -1,0 +1,58 @@
+h3{
+	text-align : center;
+	margin-top : 5%;
+}
+
+.col-wrap{
+	margin-left: 10%;
+}
+
+/* ------------------ Marge ------------------ */
+.marge{
+	margin-left : 10px;
+}
+
+#tableBlock{
+	margin-left : 20%;
+	width : auto;
+}
+
+/* ------------------ Supprime les puces ------------------ */
+li{
+	list-style-type: none
+}
+
+/* ------------------ Recherche dans l'arborescence ------------------ */
+.form-horizontalRechercheDansArbo{
+	width : 60%;
+	margin-left : 20%;
+	margin-top : 2px;
+	margin-bottom : 3%;
+}
+
+/* ------------------ Arborescence style ------------------ */
+input ~ ul {
+ display: none;
+}
+input:checked ~ ul {
+ display: block;
+}
+
+/* ------------------ Tableau du dépôt ------------------ */
+table
+{
+    border-collapse: collapse;
+    margin : 20px 0 0 20px;
+}
+
+th, td{
+	border : 1px solid black;
+}
+
+#elt{
+	padding : 0 250px 0 0;
+}
+
+th{
+	padding-left : 10px;
+}

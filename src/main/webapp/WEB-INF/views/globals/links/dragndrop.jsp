@@ -1,0 +1,1 @@
+<script src="resources/js/dnd.js" type="text/javascript" ></script>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration 
+	xmlns="urn:eu.goldenk.riverslevel.config"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:eu.goldenk.riverslevel.config RiversLevelConfig.xsd">
+	<prop1>toto</prop1>	
+</configuration>

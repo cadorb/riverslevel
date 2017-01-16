@@ -1,0 +1,62 @@
+/* -------------- bouton Créer -------------- */
+
+
+/* -------------- Section contenant le formulaire -------------- */
+
+section{
+	margin-top : 5px;
+	margin-left : 25%;
+}
+
+.title{
+	margin-left : 30%;
+	margin-top : 7%;
+}
+
+/* -------------- Les boutons Ajouter -------------- */
+
+#addPackageButton{
+	margin : 20px 0 20px 140px;
+	width : 200px;
+	display: block;
+}
+
+#addUrlGitPackage{
+	margin : 10px 0 20px 125px;
+	width : 200px;
+	display: block;
+}
+
+#addComponantButton{
+	margin : 20px 0 20px 125px;
+	width : 200px;
+	display: block;
+}
+
+#addUrlGitComponant{
+	margin : 10px 0 20px 110px;
+	width : 200px;
+	display: block;
+}
+
+/* -------------- Style Input -------------- */
+.form-control {
+	width : 250px;
+}
+
+/* -------------- Style Label -------------- */
+
+.control-formInfra{
+	padding-top : 10px;
+	width : 5%;
+	float : left;
+}
+
+.control-formServ{
+	margin-left : 5%;
+}
+/* ############################### Style fenêtre modale ############################## */
+
+.modal-footer{
+	margin-top : 15%;
+}

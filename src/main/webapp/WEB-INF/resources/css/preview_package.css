@@ -1,0 +1,36 @@
+h3{
+	text-align : center;
+	margin-top : 5%;
+}
+
+/* ------------------ Cadre principal ------------------ */
+.info{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 500px;
+	margin-top : 5%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.info:hover{
+	background-color: #F5F5F5;
+}
+
+/* ------------------ Style des informations ------------------ */
+#package_info{
+	margin-top: 20px;
+}
+
+/* ------------------ Bouton Modifier demande ------------------ */
+#modif_package{
+	text-decoration : none;
+}
+
+/* ------------------ Marge ------------------ */
+.marge{
+	margin-left : 10px;
+}

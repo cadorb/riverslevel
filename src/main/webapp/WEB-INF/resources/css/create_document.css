@@ -1,0 +1,103 @@
+/* ------------------ Les différentes marges ------------------ */
+.marge{
+	margin-left : 30px;
+}
+
+.marge2{
+	margin-left : 30px;
+}
+
+/* ------------------ Supprime les puces ------------------ */
+li{
+	list-style-type: none
+}
+
+button{
+	float : right;
+	margin : 3% 2% 0 0;
+}
+
+#documentList{
+	
+}
+
+/* ------------------ Style cadre ------------------ */
+.create_doc{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	width : 100%;
+	height : auto;
+	margin-top: 5%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.form-horizontalCreation label{ /* ------------------ Style Label ------------------ */
+	margin-top : 10px;
+	padding-left : 80px;
+}
+
+.form-horizontalCreation input{ /* ------------------ Style input ------------------ */
+	margin-bottom: 20px;
+	width : 70%;
+}
+
+/* ------------------ Bouton Créer ------------------ */
+
+.form-horizontalCreer {
+	margin-top: 10px;
+	width : 25%;
+	float : right;
+}
+#creer{
+	text-decoration : none;
+}
+
+/* ------------------ Recherche dans liste ------------------ */
+#inputRechercher{
+	width : 60%;
+	margin-left : 20%;
+	margin-top : 2%;
+	margin-bottom : 3%;
+}
+
+/* ------------------ Cadre Associer ------------------ */
+.associer_arbo{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	overflow : auto;
+	width : 80%;
+	height : 200px;
+	margin-top : 25px;
+	margin-left : 150px;
+	margin-bottom : 30px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.associer_arbo:hover{
+	background-color: #F5F5F5;
+}
+
+.associer{
+	padding-top : 30px;
+	margin-left : 115px;
+}
+
+/* ------------------ Listbox Type ------------------ */
+.form-control{
+	width : 80%;
+}
+
+.form-groupListbox{
+	width : 50%;
+	padding-top : 50px;
+	margin-left : 9%;
+}
+
+.form-groupListbox label{
+	padding-left : 1px;
+	padding-right : 90px;
+}

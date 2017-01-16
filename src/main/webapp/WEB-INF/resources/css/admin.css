@@ -1,0 +1,71 @@
+/* ------------------ Les différentes marges ------------------ */
+.marge{
+	margin-left : 30px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.marge2{
+	margin-left : 30px;
+}
+
+/* ------------------ Supprime les puces ------------------ */
+li{
+	list-style-type: none
+}
+
+/* ------------------ Style cadre principal ------------------ */
+.admin_action{
+	display: inline-block; 
+	float: left;
+	border: 1px solid black;
+	width : 100%;
+	height : auto;
+	margin-top : 5%;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.admin_action h3{
+	margin: 3% 0 2% 3%;
+}
+
+/* ------------------ Recherche dans liste ------------------ */
+.form-horizontalRechercheListe{
+	width : 300px;
+	margin-left : 20%;
+	margin-top : 2%;
+	margin-bottom : 3%;
+}
+
+.liste_users{
+	width : 80%;
+	height : 400px;
+	margin: 0 0 2% 7%;
+	overflow : auto;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 5px 10px -6px #999999;
+}
+
+.liste_users:hover{
+	background-color: #F5F5F5;
+}
+
+.btn-xs{
+	margin : 2%;
+	width : 200px;
+	height : 30px;
+	font-size : 16px;
+}
+
+footer {
+	background-color: #333333;
+	margin-top : 5%;
+	height: auto;
+}
+
+footer p {
+	color: white;
+	text-align : center;
+	padding-top : 6px;
+}
