@@ -3,8 +3,6 @@ package eu.goldenk.riverslevel.config.spring;
 import java.util.Locale;
 
 import eu.goldenk.riverslevel.controller.*;
-import eu.goldenk.riverslevel.dao.*;
-import eu.goldenk.riverslevel.dao.impl.*;
 import eu.goldenk.riverslevel.service.*;
 import eu.goldenk.riverslevel.service.impl.*;
 import org.springframework.context.MessageSource;

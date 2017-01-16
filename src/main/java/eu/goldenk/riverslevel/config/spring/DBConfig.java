@@ -35,7 +35,7 @@ public class DBConfig {
 	public DataSource dataSource(){
 		DriverManagerDataSource datasource = new DriverManagerDataSource();
 		datasource.setDriverClassName(DATABASE_DRIVER);
-		datasource.setUrl(JDBC_MYSQL + "localhost:3306/releasemanager");
+		datasource.setUrl(JDBC_MYSQL + "localhost:3306/riverslevel");
 		datasource.setUsername("root");
 		datasource.setPassword("password");
 		return datasource;
@@ -54,7 +54,7 @@ public class DBConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
           LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
           entityManagerFactoryBean.setDataSource(dataSource());
-          entityManagerFactoryBean.setPackagesToScan(new String[] { "com.gfi.caen.releasemanager.entities" });
+          entityManagerFactoryBean.setPackagesToScan(new String[] { "com.gfi.caen.riverslevel.entities" });
           entityManagerFactoryBean.setJpaProperties(hibProperties());
           JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
           entityManagerFactoryBean.setJpaVendorAdapter(vendorAdapter);
